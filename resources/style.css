@@ -249,3 +249,83 @@ header .content {
 .start-learning p {
   color: #767676;
 }
+
+.thesis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0 2rem 1.5rem;
+  background-color: #f3f5f5;
+}
+
+.thesis .row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.thesis-main {
+  width: 60%;
+  padding-right: 1.5rem;
+}
+
+.thesis video {
+  width: 100%;
+}
+
+.thesis aside {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  border: 2px solid #002e54;
+  border-bottom: none;
+}
+
+#Fisma,
+#now-then {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 2px solid #002e54;
+}
+
+.thesis-block img {
+  height: auto;
+  width: 35%;
+  margin: 1rem;
+}
+
+.thesis-block .text {
+  padding: 0 0.5rem;
+}
+
+.thesis-block:hover {
+  background-color: #002e54;
+  color: #fff;
+}
+
+.thesis-block:hover h3 {
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: #002e54;
+  color: #fff;
+  border-top: 3px solid #cdb684;
+}
+
+footer a {
+  text-decoration: none;
+  color: #cdb684;
+  padding: 0 0.5rem;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
