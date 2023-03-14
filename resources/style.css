@@ -200,3 +200,52 @@ header .content {
     color: #cdb684;
   }
 }
+
+.start-learning {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 4.5rem;
+  background-color: #002e54;
+  color: #fff;
+}
+
+.start-learning .courses {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.course {
+  width: 26%;
+  margin: 1rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  border: 1px solid white;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.course:hover {
+  transform: scale(1.075);
+}
+
+.start-learning img {
+  height: auto;
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.start-learning .text {
+  margin-top: -1.5rem;
+  padding: 1rem 1rem 1.5rem;
+}
+
+.start-learning p {
+  color: #767676;
+}
